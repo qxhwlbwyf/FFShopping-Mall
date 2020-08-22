@@ -1,0 +1,15 @@
+
+.xiao {
+	position: absolute;
+	top: 110rpx;
+	left: 450rpx;
+	height: 50rpx;
+	line-height: 50rpx;
+}
+.cu-bar {
+	position: fixed;
+	bottom: 0rpx;
+	left: 0rpx;
+	width: 100%;
+}
+

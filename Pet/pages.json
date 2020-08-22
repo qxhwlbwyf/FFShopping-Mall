@@ -1,0 +1,120 @@
+{
+	"pages": [ {
+		"path": "pages/login/login",
+		"style": {
+			"disableScroll": true
+		}
+	},{
+		"path": "pages/register/register",
+		"style": {}
+	},{
+		"path": "pages/index/index",
+		"style": {
+			// "navigationBarTitleText": "首页"
+			"app-plus": {
+				"softinputMode": "adjustPan"
+			}
+		}
+	},  {
+		"path": "pages/message/message",
+		"style": {}
+	}, {
+		"path": "pages/test/test",
+		"style": {}
+	}, {
+		"path": "pages/order/order",
+		"style": {
+			"app-plus": {
+				"softinputMode": "adjustPan"
+			}
+		}
+	}, {
+		"path": "pages/person/person",
+		"style": {
+			"app-plus": {
+				"softinputMode": "adjustPan"
+			}
+		}
+	}, {
+		"path": "pages/sort/sort",
+		"style": {
+			"app-plus": {
+				"softinputMode": "adjustPan"
+			}
+		}
+	}   
+        ,{
+            "path" : "pages/List/List",
+            "style" : {
+				"navigationBarTitleText":"商品列表",
+				"enablePullDownRefresh":true
+			}
+        }
+        ,{
+            "path" : "pages/myorder/myorder",
+            "style" : {"navigationBarTitleText":"订单列表"}
+        }
+        ,{
+            "path" : "pages/myaddress/myaddress",
+            "style" : {
+				"navigationBarTitleText":"地址管理"
+			}
+        }
+        ,{
+            "path" : "pages/orderdetail/orderdetail",
+            "style" : {
+				"navigationBarTitleText":"订单详情"
+			}
+        }
+        ,{
+            "path" : "pages/adressNew/adressNew",
+            "style" : {
+				"navigationBarTitleText":"添加地址"
+			}
+        }
+        ,{
+            "path" : "pages/upadteaddress/upadteaddress",
+            "style" : {
+				"navigationBarTitleText":"修改地址"
+			}
+        }
+        ,{
+            "path" : "pages/newOrder/newOrder",
+            "style" : {
+				"navigationBarTitleText":"创建订单"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationStyle": "default",
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "FF商城",
+		"navigationBarBackgroundColor": "#4ac3fa",
+		"backgroundColor": "#0f33ff"
+	},
+	"tabBar": {
+		"color": "#646566",
+		"selectedColor": "#007AFF",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"text": "首页",
+			"iconPath": "static/icon/home.png",
+			"selectedIconPath": "static/icon/home-select.png"
+		}, {
+			"pagePath": "pages/sort/sort",
+			"text": "分类",
+			"iconPath": "static/icon/sort.png",
+			"selectedIconPath": "static/icon/sort-select.png"
+		}, {
+			"pagePath": "pages/order/order",
+			"text": "购物车",
+			"iconPath": "static/icon/order.png",
+			"selectedIconPath": "static/icon/order-select.png"
+		}, {
+			"pagePath": "pages/person/person",
+			"text": "个人",
+			"iconPath": "static/icon/my.png",
+			"selectedIconPath": "static/icon/my-select.png"
+		}]
+	}
+}

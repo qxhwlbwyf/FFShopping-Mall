@@ -1,0 +1,53 @@
+
+.jc {
+	margin-top: 30rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	background-color: #eaeaea;
+	border: 0.5px solid #eaeaea;
+	border-radius: 10px;
+}
+.proimage {
+	width: 300rpx;
+	height: 250rpx;
+}
+.proimage>image {
+	width: 100%;
+	height: 100%;
+	border-top-left-radius: 20rpx;
+	border-top-right-radius: 20rpx;
+}
+.proinformation {
+	width: 100%;
+	height: 90rpx;
+}
+.proname {
+	width: 100%;
+	height: 40rpx;
+	overflow: hidden;
+}
+.proname>text {
+	width: 100%;
+	height: 100%;
+	text-overflow: ellipsis;
+	font-size: 22rpx;
+	display: inline-block;
+}
+.proprice {
+	width: 100%;
+	height: 50rpx;
+	overflow: hidden;
+}
+.proprice>text {
+	width: 100%;
+	height: 50rpx;
+	color: #ff0000;
+	text-overflow: ellipsis;
+	font-size: 30rpx;
+}
+

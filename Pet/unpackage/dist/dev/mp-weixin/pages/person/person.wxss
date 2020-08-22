@@ -1,0 +1,47 @@
+
+.navbar {
+	height: 50rpx;
+	line-height: 50rpx;
+}
+.header {
+	/* 
+	margin-top: 50rpx; */
+	height: 230rpx;
+	width: 750rpx;
+}
+.headtop {
+	margin-top: 10rpx;
+	height: 130rpx;
+}
+.head {
+	float: left;
+	margin-left: 35rpx;
+	height: 100rpx;
+	width: 100rpx;
+	border-radius: 100%;
+}
+.name {
+	float: left;
+	height: 100rpx;
+	line-height: 100rpx;
+	margin-left: 35rpx;
+}
+.btn {
+	color: #000000;
+	float: left;
+	height: 100rpx;
+	line-height: 100rpx;
+	margin-left: 320rpx;
+}
+.grid1 {
+	text-align: center;
+}
+.grid {
+	height: 110rpx;
+	text-align: center;
+}
+.grid2 {
+	margin-top: 20rpx;
+	height: 800rpx;
+}
+

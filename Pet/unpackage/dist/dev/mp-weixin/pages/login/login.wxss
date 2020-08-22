@@ -1,0 +1,11 @@
+
+.img {
+	margin-top: 120rpx;
+}
+.cu-form-group .title {
+	min-width: calc(4em + 15px);
+}
+.big {
+	margin-top: 230rpx;
+}
+

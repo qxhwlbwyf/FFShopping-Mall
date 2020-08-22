@@ -1,0 +1,59 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/index/index",
+    "pages/message/message",
+    "pages/test/test",
+    "pages/order/order",
+    "pages/person/person",
+    "pages/sort/sort",
+    "pages/List/List",
+    "pages/myorder/myorder",
+    "pages/myaddress/myaddress",
+    "pages/orderdetail/orderdetail",
+    "pages/adressNew/adressNew",
+    "pages/upadteaddress/upadteaddress",
+    "pages/newOrder/newOrder"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationStyle": "default",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "FF商城",
+    "navigationBarBackgroundColor": "#4ac3fa",
+    "backgroundColor": "#0f33ff"
+  },
+  "tabBar": {
+    "color": "#646566",
+    "selectedColor": "#007AFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/icon/home.png",
+        "selectedIconPath": "static/icon/home-select.png"
+      },
+      {
+        "pagePath": "pages/sort/sort",
+        "text": "分类",
+        "iconPath": "static/icon/sort.png",
+        "selectedIconPath": "static/icon/sort-select.png"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "text": "购物车",
+        "iconPath": "static/icon/order.png",
+        "selectedIconPath": "static/icon/order-select.png"
+      },
+      {
+        "pagePath": "pages/person/person",
+        "text": "个人",
+        "iconPath": "static/icon/my.png",
+        "selectedIconPath": "static/icon/my-select.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap5.json"
+}

@@ -1,0 +1,14 @@
+
+.di {
+	display: inline-block;
+		position: absolute;
+		width: 100%;
+		top: 20rpx;
+		left: 0rpx;
+}
+.di .submit {
+		font-size: 40rpx;
+		color: #000000;
+		text-align: center;
+}
+

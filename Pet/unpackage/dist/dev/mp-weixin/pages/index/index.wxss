@@ -1,0 +1,42 @@
+
+.ju {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	-webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+}
+.shoplist {
+	width: 100%;
+}
+.search {
+	z-index: 999;
+	background-color: #007AFF;
+}
+.trade {
+	width: 1000rpx;
+	color: #5c04c7;
+	overflow: auto;
+}
+.trade view {
+	text-align: center;
+	margin-left: 30rpx;
+	width: 160rpx;
+	font-size: 30rpx;
+	float: left;
+}
+.text4{
+	border:1px solid #F37B1D;
+}
+.trade .texts.active {
+	border-bottom: 8rpx solid #F0AD4E;
+}
+.imgview {
+	/* background-color: #007AFF; */
+}
+

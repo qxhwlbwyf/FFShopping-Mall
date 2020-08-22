@@ -1,0 +1,8 @@
+
+.cu-bar {
+		position: fixed;
+		bottom: 0rpx;
+		left: 0rpx;
+		width: 100%;
+}
+
